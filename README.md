@@ -10,6 +10,6 @@ It pulishes one topic named "ahrs_data" which contains data from AHRS sensor:
 - Acceleration of sensor in every axis.
 - Transformation matrix of sensor.
 
-Project made for the end of Robotics and Control Engineering B.Sc. degree. 
+Robotics and Control Engineering B.Sc. thesis.
 
 Teacher: Ph.D. Dominik Belter
