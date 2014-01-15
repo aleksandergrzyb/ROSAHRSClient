@@ -18,8 +18,8 @@ int main(int argc, char **argv)
 	ros::init(argc, argv, "ahrs_client");
 	ros::NodeHandle n;
 	ros::Publisher ahrs_data_pub = n.advertise<ahrs_client::Data>("ahrs_data", 1000);
-	ros::Rate loop_rate(10);
-	RPCCallerAHRS* RPCCaller = new RPCCallerAHRS("150.254.45.220", 2137);
+	ros::Rate loop_rate(1);
+	RPCCallerAHRS* RPCCaller = new RPCCallerAHRS("150.254.46.83", 2137);
 	RPCCaller->Run();
 	int count = 0;
 	float positionResponseData[6];
